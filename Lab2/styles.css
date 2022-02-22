@@ -1,0 +1,560 @@
+@font-face {
+    font-family: "GraphikRegular";
+    src: url("src/fonts/GraphikRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "GraphikMedium";
+    src: url("src/fonts/GraphikMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: GraphikRegular;
+  background: #181818;
+  color: white;
+}
+@media screen and (max-width: 550px) {
+  div[class="Block1"]{
+    height: 1235px;
+  }
+      div[class="WorkAtTheSpeed"]{
+        font-size: 52px;
+        width: 294px;
+      }
+      div[class="MostCalendars"]{
+        width: 382px;
+        height: 120;
+      }
+      div[class="TwoButtons"]{
+        flex-direction: column;
+      }
+      div[class="TryForFree"]{
+        margin-bottom: 20px;
+        margin-right: 0px;
+      }
+      div[class="TextHeader"]{
+        display: none !important;
+      }
+      div[class="MenuIcon"]{
+        display: block;
+      }
+
+  div[class="Block2"]{
+    height: 1514px;
+  }
+      div[class="MostCalendars"]{
+        height: 90px;
+        width: 411px;
+      }
+      div[class="Page2Container"]{
+        flex-direction: column;
+        align-items: center;
+      }
+      img[id="ChatBot"]{
+        margin-right: 0px;
+        height: 406px;
+      }
+      div[class="IconContainer"]{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      div[class="ChatBot"]{
+        display: none !important;
+      }
+      div[class="ChatBotReplacement"]{
+        display: block;
+      }
+
+  div[class="Block3"]{
+    height: 1620px;
+  }
+      div[class="DescriptionOfPages"]{
+        width: 288px;
+        height: 90px;
+      }
+      div[class="CardsContainer"]{
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+      }
+      div[class="Card"]{
+        margin-top: 33px;
+      }
+
+  div[class="Block4"]{
+    height: 1771px;
+  }
+      div[class="GalleryContainer"]{
+        display: none !important;
+      }
+      div[class="GalleryContainerReplacement"]{
+        display: flex;
+      }
+
+  div[class="Block5"]{
+    height: 715px;
+  }
+      div[class="PartnersContainer"]{
+        width: 330px;
+        margin-bottom: 0px;
+      }
+      img[class="PartnersIcon"]{
+        margin-right: 20px;
+        margin-bottom: 50px;
+      }
+      img[class="IBMIcon"]{
+        margin-bottom: 50px;
+      }
+
+  div[class="Block6"]{
+    height: 1905px;
+  }
+      div[class="Testimonials"]{
+        display: none !important;
+      }
+      div[class="ReplacingTestimonials"]{
+        display: flex;
+      }
+
+  div[class="Block7"]{
+    height: 968px;
+  }
+      div[class="OpenTypeText"]{
+        width: 336px;
+        height: 186px;
+        text-align: center;
+      }
+      div[class="OpenTypeBlock"]{
+        display: none !important;
+      }
+      div[class="OpenTypeReplacing"]{
+        display: flex;
+      }
+
+  div[class="Footer"]{
+    height: 1398px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+      div[class="TextContactsContainer"]{
+        height: 860px;
+        width: 184px;
+        margin-top: 0px;
+      }
+      div[class="ContactHeaderText"]{
+        margin-top: 75px;
+      }
+      div[class="IconsContacts"]{
+        margin-top: 78px;
+      }
+}
+
+
+.Block1{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 1675px;
+}
+      .Header{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .FigmaIcon{
+        margin-left: 100px;
+        margin-top: 30px;
+      }
+      .TextHeader{
+        margin-top: 47px;
+      }
+      .Login{
+        color: white;
+        font-size: 17px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin-top: 46px;
+        padding: 10px 20px;
+        border: 1px solid silver;
+        background: #181818;
+      }
+      .Login:hover{
+        border: 1px dotted silver;
+      }
+      .MenuIcon{
+        display: none;
+        margin-right: 16px;
+        margin-top: 28px;
+      }
+      .MenuButton{
+        background: #181818;
+        border: 1px solid #181818;
+      }
+      .MainWords{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .WorkAtTheSpeed{
+        width: 709px;
+        height: 176px;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 142px;
+      }
+      .MostCalendars{
+        width: 582px;
+        height: 60px;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 20px;
+      }
+      .TwoButtons{
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .TryForFree{
+        padding: 20px 40px;
+        margin-right:  35px;
+        border: 1px solid white;
+        background: #4452FE;
+        width: 85px;
+        text-align: center;
+      }
+      .TryForFree:hover{
+        border: 1px dotted white;
+        background: #788efa;
+      }
+      .LearnMore{
+        padding: 20px 40px;
+        border: 1px solid white;
+        width: 85px;
+        text-align: center;
+      }
+      .LearnMore:hover{
+          border: 1px dotted white;
+      }
+      .Dashboards{
+        margin-top: 35px;
+        align-items: center;
+      }
+      #Gradient{
+        z-index: 1px;
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+      }
+
+
+.Block2{
+  display: flex;
+  flex-direction: column;
+  height: 1212px;
+}
+      .HeadersOfPages{
+        margin-top: 162px;
+        font-size: 52px;
+      }
+      .MostCalendars{
+        margin-top: 27px;
+        font-size: 20px;
+      }
+      .Page2Container{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+      }
+      .ChatBot{
+        margin-left: 273px;
+      }
+      .ChatBotReplacement{
+        display: none;
+        margin-bottom: 57px;
+      }
+      .IconContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 275px;
+        margin-left: 47px;
+      }
+      .Minicontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 245px;
+        flex-wrap: wrap;
+        margin-bottom: 45px;
+      }
+      .Icon{
+        position: relative;
+        top: -15px;
+      }
+      .Title{
+        width: 153px;
+        height: 60px;
+        margin-left: 13px;
+      }
+      .Description{
+        margin-top: 15px;
+      }
+
+.Block3{
+  display: flex;
+  flex-direction: column;
+  height: 1030px;
+}
+      .DescriptionOfPages{
+        width: 571px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+      .CardsContainer{
+        margin-top: 54px;
+        display: flex;
+        justify-content: center;
+      }
+      .Card{
+        background: white;
+        width: 476px;
+        height: 624px;
+        margin-right: 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .CardTitle{
+        text-align: center;
+        margin-top: 50px;
+        color: black;
+        font-family: GraphikMedium;
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .CardDescription{
+        text-align: center;
+        width: 268px;
+        height: 72px;
+        margin-top: 30px;
+        color: #5C5C5C;
+        font-size: 16px;
+      }
+      .CardButton1{
+        margin-top: 67px;
+        width: 148px;
+        height: 52px;
+        background: #4452FE;
+        color: white;
+        border: 1px solid white;
+      }
+      .CardButton1:hover{
+        border: 1px dotted white;
+        background: #788efa;
+      }
+      .CardImage{
+        margin-top: 57px;
+      }
+      .CardButton2{
+        margin-top: 40px;
+        width: 148px;
+        height: 52px;
+        background: #4452FE;
+        color: white;
+        border: 1px solid white;
+      }
+      .CardButton2:hover{
+        border: 1px dotted white;
+        background: #788efa;
+      }
+      .BoardNotifications{
+        width: 379px;
+        height: 276px;
+        margin-top: 30px;
+      }
+
+.Block4{
+  display: flex;
+  flex-direction: column;
+  height: 1116px;
+}
+      .GalleryContainer{
+        margin-top: 54px;
+        width: 1087px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .GalleryPng{
+        margin-bottom: 44px;
+        border-radius: 12px;
+      }
+      .GalleryContainerReplacement{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+      .RGalleryPng{
+        margin-top: 33px;
+        border-radius: 12px;
+      }
+      #SeeMoreButton{
+        margin-top: 44px;
+        width: 148px;
+        height: 52px;
+        border: 1px solid white;
+        background: #181818;
+        color: white;
+        font-size: 17px;
+      }
+      #SeeMoreButton:hover{
+        border: 1px dotted white;
+      }
+
+.Block5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 585px;
+}
+      .PartnersContainer{
+        width: 832px;
+        margin-top: 63px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+      }
+      #AllPartnersButton{
+        width: 148px;
+        height: 52px;
+        border: 1px solid white;
+        background: #181818;
+        color: white;
+        font-size: 17px;
+      }
+      #AllPartnersButton:hover{
+        border: 1px dotted white;
+      }
+
+.Block6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 984px;
+}
+      .Testimonials{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 883px;
+        height: 652px;
+      }
+      .ReplacingTestimonials{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 352px;
+      }
+      .ReplacementTestimonialsPng{
+        margin-top: 23px;
+      }
+
+.Block7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 630px;
+}
+      .OpenTypeBlock{
+        width: 1219px;
+        height: 370px;
+        margin-top: 100px;
+        border-radius: 31px;
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .OpenTypeText{
+        width: 479px;
+        height: 124px;
+        font-size: 52px;
+      }
+      .OpenTypeReplacing{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+      .MediaContentReplacing{
+        margin-top: 106px;
+      }
+
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 573px;
+}
+      .TextContactsContainer{
+        margin-top: 200px;
+        width: 467px;
+        height: 223px;
+        margin-right: 253px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .ContactHeaderText{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-right: 97px;
+      }
+      .ContactText{
+        font-size: 16px;
+        margin-bottom: 19px;
+      }
+      .IconsContacts{
+        margin-top: 200px;
+        width: 303px;
+        height: 164px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #IconMark{
+        margin-bottom: 19px;
+      }
+      .Address{
+        margin-left: 10px;
+        position: relative;
+        top: 12px;
+      }
+      .PhoneNumber{
+        margin-left: 10px;
+        margin-right: 120px;
+        position: relative;
+        top: 12px;
+      }
+      .LastIcons{
+        margin-top: 42px;
+        margin-right: 28px;
+      }
